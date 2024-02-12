@@ -1,0 +1,38 @@
+/* Styles for the slider component */
+.horizontal-slider {
+    width: 100%;
+    max-width: 500px;
+    height: 60px;
+}
+
+/* Styles for the slider thumb */
+.example-thumb {
+    top: 6px;
+    width: 50px;
+    height: 48px;
+    line-height: 38px;
+    border-radius: 50%;
+    font-size: 0.8em;
+    text-align: center;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    box-sizing: border-box;
+}
+
+.horizontal-slider .example-track {
+    top: 25px;
+    height: 10px;
+}
+
+.slider.input{
+    background-color: #98B1E6;
+}
+
+.slider.output{
+    background-color: #B1E698;
+}
+
+.slider.metadata{
+    background-color: #e6e298;
+}

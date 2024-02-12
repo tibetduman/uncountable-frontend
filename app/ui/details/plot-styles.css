@@ -1,0 +1,6 @@
+.plot.input{
+    text-anchor: end;
+}
+.plot.output {
+    text-anchor: start;
+}
