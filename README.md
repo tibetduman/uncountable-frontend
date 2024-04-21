@@ -25,3 +25,28 @@ user input
 (3) To run the dev environment execute: npm run dev
     After which you can access the website on: [local](http://localhost:3000/)
 (4) To run the build environment execute: npm run build
+
+Experiments: Inputs: 10000s Outputs: 100s
+
+Milloins of experiments:
+    A single experiment: Usually has 30ish inputs with 10 outputs
+
+Experiments Table:
+    Too many columns 10^5
+    We would have too many Null entries in the rows
+
+Outputs table: (100s of columns)
+    Rows are experiments that have this specific output as non null
+
+Inputs table: (too many columns)
+
+Experiments, Inputs, Outputs
+
+Column: paramID, bool input?, experimentID (the parameter belongs to), value
+Each row: specfic input or output parameter
+
+ParameterName Table:
+    Columns: ID (unique), paramName
+
+
+
